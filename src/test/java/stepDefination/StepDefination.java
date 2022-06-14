@@ -79,5 +79,7 @@ public class StepDefination
 	public void user_should_click_on_product() {
 		driver.navigate().refresh();
 	    pc.clickonProduct();
+	    System.out.println("SuperTech");
+	    System.out.println("Finserve");
 	}
 }
