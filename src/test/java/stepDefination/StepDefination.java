@@ -67,11 +67,13 @@ public class StepDefination
 	public void user_is_click_on_search_button() {
 		pc=new ProductSearch(driver);
 		pc.searchProduct();
+		System.out.println("SuperTech5");
 		
 	}
 	@And("enters product name as {string} and clicks enter")
 	public void enters_product_name_as_and_clicks_enter(String string) {
 	   pc.enterProduct(string);
+	   System.out.println("SuperTech25");
 	   
 		
 	}
